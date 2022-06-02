@@ -2,6 +2,7 @@ import React from "react";
 import HeaderNav from './header-nav';
 import HeaderLogo from './header-logo'
 import HeaderSocial from './header-social'
+import HeaderHamburgerIcon from "./header-hamburger-icon";
 
 
 
@@ -11,6 +12,7 @@ const Header = ():React.ReactElement => {
       <div className="container flex justify-between max-w-5xl mx-auto ">
         <HeaderLogo />
         <HeaderNav />
+        <HeaderHamburgerIcon />
         <HeaderSocial />
       </div>
     </header>
